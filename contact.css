@@ -1,0 +1,108 @@
+:root{
+    --bg-color:#080808;
+    --bg2-color:#001005;
+    --text-color:#ffffff;
+    --effect-color:#00ff51;
+}
+.contact{
+    background-color: var(--bg-color);
+}
+.contact h4{
+    margin-bottom: 3rem;
+}
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-box input,
+.contact form textarea{
+    width: 80%;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    background: var(--bg-color);
+    border: 1px solid var(--effect-color);
+    border-radius: 0.8rem;
+    margin: 1rem 1rem;
+    resize: none;
+}
+.cont-btn{
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 2.8rem;
+    background: var(--bg-color);
+    border-radius: 4rem;
+    font-size: 1rem;
+    color: var(--effect-color);
+    border: 1px solid var(--effect-color);
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.cont-btn:hover{
+    transform: scale(1.05);
+    background: var(--effect-color);
+    color: var(--bg-color);
+    border: 2px solid var(--effect-color);
+    box-shadow: 0 0 25px var(--effect-color);
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: var(--bg2-color);
+}
+.social-media{
+    text-align: center;
+    padding-bottom: 25px;
+    color: var(--text-color);
+}
+.social-media a{
+    font-size: 25px;
+    color: var(--effect-color);
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--effect-color);
+    border-radius: 50%;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    transition: 0.3s ease-in-out;
+}
+.social-media a:hover{
+    transform: scale(1.2);
+    background-color: var(--effect-color);
+    color: var(--text-color);
+    box-shadow: 0 0 25px(var(--effect-color));
+}
+.foot-contain{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.email a{
+    text-decoration: none;
+    color: #00ff51;
+    transition: 1s ease-in;
+}
+.Phone a{
+    text-decoration: none;
+    color: #00ff51;
+    transition: 1s ease-in;
+}
+
+.email a:hover,.Phone a:hover{
+    color: var(--text-color);
+    transform: scale(1.1);
+}

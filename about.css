@@ -1,0 +1,30 @@
+:root{
+    --bg-color:#080808;
+    --bg2-color:#001005;
+    --text-color:#ffffff;
+    --effect-color:#00ff51;
+}
+.main-headings{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+.about p{
+    font-size: 1.5rem;
+    font-weight: 400rem;
+    line-height: 2;
+}
+.about span{
+    color: var(--effect-color);
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--effect-color);
+}
+::-webkit-scrollbar-track{
+    background-color: var(--bg-color);
+    width: 50px;
+}

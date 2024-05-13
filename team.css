@@ -1,0 +1,68 @@
+:root{
+    --bg-color:#080808;
+    --bg2-color:#001005;
+    --text-color:#ffffff;
+    --effect-color:#00ff51;
+}
+.team{
+    display: grid;
+    justify-content: center;
+}
+.team span{
+    color: var(--effect-color);
+}
+.team-box1,.team-box2{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.box{
+    width: 250px;
+    height: 300px;
+    padding: 30px 10px;
+    text-align: center;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: var(--bg2-color);
+    transition: 0.4s ease-in-out;
+    /* border:1px solid var(--text-color); */
+}
+.box:hover{
+    box-shadow: 0 0 50px var(--effect-color)    
+                
+}
+.box img{
+    position:relative;
+    border-radius: 50%;
+    width: 12vw;
+    box-shadow: 0 0 25px var(--effect-color);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.box img:hover{
+    box-shadow: 0 0 50px var(--effect-color),
+                0 0 100px var(--effect-color);
+}
+.icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: transparent;
+    border: 0.2rem solid var(--effect-color);
+    font-size: 1rem;
+    border-radius: 50%;
+    color: var(--effect-color);
+    margin: 1% 1rem 3rem 0;
+    transition: 0.3s ease-in-out;
+}
+.icons a:hover{
+    color: var(--text-color);
+    transform: scale(1.3)translateY(-5px);
+    background-color: var(--effect-color);
+    box-shadow: 0 0 25px var(--effect-color);
+}

@@ -1,0 +1,49 @@
+:root{
+    --bg-color:#080808;
+    --bg2-color:#001005;
+    --text-color:#ffffff;
+    --effect-color:#00ff51;
+}
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.skills span{
+    color: var(--effect-color);
+}
+.boxes{
+    flex: 1 1 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: var(--bg2-color);
+    padding: 3rem 2rem 4rem;
+    border: 3px solid var(--effect-color);
+    height: 450px;
+    border-radius: 2rem;
+    cursor: pointer; 
+    transition: 0.3s ease-in-out;
+}
+.boxes:hover{
+    transform: scale(1.1);
+    background-color: var(--text-color);
+    color: var(--bg-color);
+}
+.boxes i{
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+.boxes h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.boxes p{
+    font-size: 1rem;
+    margin: 1rem 0 3rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+}

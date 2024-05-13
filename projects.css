@@ -1,0 +1,108 @@
+:root{
+    --bg-color:#080808;
+    --bg2-color:#001005;
+    --text-color:#ffffff;
+    --effect-color:#00ff51;
+}
+#projects{
+    position: relative;
+}
+.projects span{
+    color: var(--effect-color);
+}
+.work-1{
+    display: block;
+    margin-bottom: 60px;
+    font-size: 1.5rems;
+}
+.desc-1{
+    position: relative;
+    display: inline-block;
+    width: 97%;
+    text-align: right;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-right: 25px;
+    font-size: 20px;
+    
+}
+.template-1{
+    display: inline-block;
+    box-shadow: 3px 7px 20px rgba(117, 81, 125, 0.2);
+    transition: background 120ms, color 120ms, transform 20ms;
+    vertical-align: middle;
+    border: 6px solid var(--effect-color);
+    width: 400px;
+    height: 300px;
+    background: var(--bg-color);
+    margin-left: 25px;
+    transition: 1s ease-in-out;
+}
+.template-1:hover,.template-2:hover{
+    color: var(--text-color);
+    transform: scale(1.1)translateY(-5px);
+    background-color: var(--effect-color);
+    box-shadow: 0 0 25px var(--effect-color);
+}
+.work-2{
+    display: block;
+    margin-bottom: 60px;
+    font-size: 10rem;
+}
+.desc-2{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-right: 25px;
+    font-size: 20px;
+}
+.template-2{
+    display: inline-block;
+    box-shadow: 3px 7px 20px rgba(117, 81, 125, 0.2);
+    transition: background 120ms, color 120ms, transform 20ms;
+    vertical-align: middle;
+    border: 6px solid var(--effect-color);
+    width: 400px;
+    height: 300px;
+    background: var(--bg-color);
+    margin-left: 25px;
+    transition: 1s ease-in-out;
+}
+.template-1:hover,.template-2:hover{
+    color: var(--text-color);
+    transform: scale(1.1)translateY(-5px);
+    background-color: var(--effect-color);
+    box-shadow: 0 0 25px var(--effect-color);
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--bg-color);
+    border-radius: 4rem;
+    font-size: 1rem;
+    color: var(--effect-color);
+    border: 2px solid var(--effect-color);
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.05);
+    background: var(--effect-color);
+    color: var(--bg-color);
+    border: 2px solid var(--effect-color);
+    box-shadow: 0 0 25px var(--effect-color);
+}
+.project-title{
+    color: var(--text-color);
+}
+.credit{
+    position: absolute;
+    top: 30%;
+    left:17%;
+    text-align: right;
+}
